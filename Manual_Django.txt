@@ -33,7 +33,7 @@
 
 # How to create a project in Django by Terminal:
 
-    --> django-admin startproject myapp ('myapp' is the name of the project in Django)
+    --> #1 : django-admin startproject myapp ('myapp' is the name of the project in Django)
 
 * A directory python will be import for folder of project, with:
  5 files -->  | __init__.py | asgi.py | settings.py | urls.py | wsgi.py |
@@ -43,3 +43,11 @@
 # How to return the virtual env? -> command: workon <name_of_virtual_env>
 
 # Time : 3:59:50 -> next content = Url Routing And Django Apps
+
+# Create a new application in our project:
+
+    --> #2 : python manage.py startapp <any_name> (Example: appStart)
+
+    * With this, news functions was add in folder <myapp>: *
+
+* migrations | __init__.py | admin.py | apps.py | models.py | tests.py | views.py *
