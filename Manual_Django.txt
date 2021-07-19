@@ -41,3 +41,5 @@
 
 
 # How to return the virtual env? -> command: workon <name_of_virtual_env>
+
+# Time : 3:59:50 -> next content = Url Routing And Django Apps
