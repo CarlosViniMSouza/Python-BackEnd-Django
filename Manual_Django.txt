@@ -1,0 +1,43 @@
+# Moment : 3:38:28 #
+
+# Course Python for Beginner Finished #
+
+# Tomorrow, get start learn Django !! #
+
+    🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳 🥳
+
+# Content in this block:
+
+⌨️ (3:38:28) Introduction To Django
+⌨️ (3:39:32) Installation Of Django
+⌨️ (3:59:49) Url Routing And Django Apps
+⌨️ (4:14:21) Django Template Language
+⌨️ (4:20:55) Sending Data To Template File
+⌨️ (4:28:12) Building A Word Counter In Django
+⌨️ (4:43:13) Get vs Post In Django
+⌨️ (4:49:21) Static Files In Django
+⌨️ (5:04:29) Introduction To Django Models
+⌨️ (5:29:02) Django Admin Panel & Manipulation Of Database
+⌨️ (5:46:38) User Registration In Django
+⌨️ (6:08:46) User Login And Logout In Django
+⌨️ (6:26:43) Dynamic Url Routing In Django
+⌨️ (6:37:24) Postgresql Setup
+
+
+# How to create a virtual environment:
+
+    --> #1 : pip install virtualenvwrapper-win
+    --> #2 : mkvirtualenv venv
+    * In step 2, we create a virtual environment tell 'venv' ! *
+
+
+# How to create a project in Django by Terminal:
+
+    --> django-admin startproject myapp ('myapp' is the name of the project in Django)
+
+* A directory python will be import for folder of project, with:
+ 5 files -->  | __init__.py | asgi.py | settings.py | urls.py | wsgi.py |
+ 1 extra -->  |  manage.py  |
+
+
+# How to return the virtual env? -> command: workon <name_of_virtual_env>
