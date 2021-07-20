@@ -3,6 +3,12 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return render(request, 'index.html')
+    user = {
+        'name': 'CarlosViniMSouza',
+        'age': 20,
+        'nationality': 'Brazilian',
+        'college': 'Graduate'
+    }
+    return render(request, 'index.html', user)
 
 # Okay, now, lets go to the Terminal writer 'python manage.py runserver' for generate the application's localhost
