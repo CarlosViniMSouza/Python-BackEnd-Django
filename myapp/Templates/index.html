@@ -5,7 +5,7 @@
     <title>Django Templates</title>
 </head>
 <body>
-    <!--We create a form for word counter.-->
+    <!--We create a form for word counter.
     <h2> Speak a little about you to below: </h2>
 
     <form method = "POST" action = "counter">
@@ -14,7 +14,7 @@
         <br>
         <input type = "submit"/>
     </form>
-    <!---method accept keywords how 'GET' & 'POST'--->
+    <--method accept keywords how 'GET' & 'POST'--->
     <!---Difference between GET and Post methods!--->
     <!---
         GET and POST are typically used for different purposes.
@@ -30,6 +30,10 @@
 
     See more in : https://docs.djangoproject.com/en/3.2/topics/forms/#get-and-post
     -->
+    {% load Static %}
 
+    <h1> Hello, you're in a Static Page. </h1>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </body>
 </html>
