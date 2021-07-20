@@ -8,11 +8,28 @@
     <!--We create a form for word counter.-->
     <h2> Speak a little about you to below: </h2>
 
-    <form method = "" action = "counter">
+    <form method = "POST" action = "counter">
+        {% csrf_token %}
         <textarea name = "text" rows = "25" cols = "75"></textarea>
         <br>
         <input type = "submit"/>
     </form>
+    <!---method accept keywords how 'GET' & 'POST'--->
+    <!---Difference between GET and Post methods!--->
+    <!---
+        GET and POST are typically used for different purposes.
+
+    Any request that could be used to change the state of the system - for example,
+    a request that makes changes in the database - should use POST.
+    GET should be used only for requests that do not affect the state of the system.
+
+    WARNING: A Web application that uses GET requests for admin forms is a security risk:
+    it can be easy for an attacker to mimic a form’s request to gain access to sensitive
+    parts of the system. POST, coupled with other protections like Django’s CSRF protection
+    offers more control over access.
+
+    See more in : https://docs.djangoproject.com/en/3.2/topics/forms/#get-and-post
+    -->
 
 </body>
 </html>

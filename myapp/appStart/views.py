@@ -14,6 +14,6 @@ def index(request):
 # Okay, now, lets go to the Terminal writer 'python manage.py runserver' for generate the application's localhost
 
 def counter(request):
-    text = request.GET['text']
+    text = request.POST['text']
     count_words = len(text.split())
     return render(request, 'counter.html', {'count': count_words})
