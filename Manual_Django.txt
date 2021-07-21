@@ -51,3 +51,5 @@
     * With this, news functions was add in folder <myapp>: *
 
 * migrations | __init__.py | admin.py | apps.py | models.py | tests.py | views.py *
+
+# So, after doing the first steps, continue to see the tutorial! Good Luck
