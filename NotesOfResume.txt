@@ -1,0 +1,3 @@
+Unfortunately, I will have to close the project in the Introduction to Django Templates part
+(since I couldn't load the bootstrap template in the 'Static Pages in Django' part).
+Maybe one day I will try to finish this project again.
